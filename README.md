@@ -1,2 +1,0 @@
-# quakify
-Created with CodeSandbox
