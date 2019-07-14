@@ -18,13 +18,9 @@ const offsets = [
   [-8, 1]
 ];
 
-uploadButton.addEventListener("input", handleFileUpload);
+uploadButton.addEventListener("input", handleImageUpload);
 
-function handleFileUpload(e) {
-  handleImage(e);
-}
-
-function handleImage(e) {
+function handleImageUpload(e) {
   const reader = new FileReader();
   reader.onload = function(event) {
     const img = new Image();
